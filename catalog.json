@@ -1,0 +1,1104 @@
+{
+  "schemaVersion": 1,
+  "revision": "2026-09-16-initial-01",
+  "generatedAt": "2026-09-16T04:51:05Z",
+  "coverage": [
+    {
+      "name": "Reddit",
+      "checkedAt": "2026-09-16T04:51:05Z",
+      "note": "Manually checked creator demos in r/ChatGPT, r/aivideo and r/nanobanana. Rounded visible counters are snapshots, not a census or momentum measurement. No Reddit API used."
+    },
+    {
+      "name": "Creator websites",
+      "checkedAt": "2026-09-16T04:51:05Z",
+      "note": "Checked original Simon Willison posts and provider-hosted creator interviews and visual tutorials. Editorial discoveries have no measured engagement."
+    },
+    {
+      "name": "Coverage limits",
+      "checkedAt": "2026-09-16T04:51:05Z",
+      "note": "Limited initial research sample, with historical backfill inside the past year. Today can be empty. Dates refer to publication of the linked demonstration or tutorial; date-only sources use midnight UTC. No comprehensive X, YouTube, TikTok or Instagram coverage yet."
+    },
+    {
+      "name": "Media",
+      "checkedAt": "2026-09-16T04:51:05Z",
+      "note": "Remote source-hosted previews and official Suno players; no platform video downloaded or rehosted. Some ideas link to the original for playback. Preview availability can change."
+    }
+  ],
+  "ideas": [
+    {
+      "id": "alternate-universe-game-film",
+      "title": "Give a game world a new cinematic identity",
+      "summary": "A creator reimagined Skyrim as a Soviet-era world using generated images and video. The original post names both tools.",
+      "creator": "u/GormtheOld25",
+      "topic": "Film & animation",
+      "tools": [
+        "ChatGPT Images 2.5",
+        "MiniMax H3 Max"
+      ],
+      "format": "video",
+      "difficulty": "Try it",
+      "publishedAt": "2026-09-12T12:54:11Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://www.reddit.com/r/ChatGPT/comments/1webw9b/skyrim_soviet_edition/",
+      "sources": [
+        {
+          "label": "u/GormtheOld25 · original source",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1webw9b/skyrim_soviet_edition/",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Reddit displayed 11K score and 482 comments when checked. Selected from r/ChatGPT Top this week; rounded platform counters are a snapshot, not growth."
+        }
+      ],
+      "media": {
+        "imageURL": "https://external-preview.redd.it/skyrim-soviet-edition-v0-ejBscTJ5Zmg2M3BoMcmPtBlPzQqPPBG17XzZj_-rvI2kTSu7HrECr1j_h5ke.png?width=640&crop=smart&format=pjpg&auto=webp&s=46599449021a38f666f951a3c62ac436e8967420",
+        "aspectRatio": 1.5,
+        "altText": "Poster frame from Skyrim: Soviet Edition",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "u/GormtheOld25"
+      },
+      "workflow": [
+        "Choose a fictional world and visual direction",
+        "Generate matching keyframes",
+        "Animate and edit a short sequence"
+      ],
+      "guide": {
+        "steps": [
+          "Choose a fictional world and visual direction",
+          "Generate matching keyframes",
+          "Animate and edit a short sequence"
+        ],
+        "prompt": "Reimagine my original fantasy village as a retro industrial city. Develop three consistent cinematic frames, then describe one restrained camera move per frame.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://www.reddit.com/r/ChatGPT/comments/1webw9b/skyrim_soviet_edition/"
+      },
+      "ranks": {
+        "day": 1,
+        "week": 1,
+        "month": 1,
+        "year": 1
+      },
+      "whyPopular": "Reddit displayed 11K score and 482 comments when checked. Selected from r/ChatGPT Top this week; rounded platform counters are a snapshot, not growth."
+    },
+    {
+      "id": "local-running-loops",
+      "title": "Map a running loop from your front door",
+      "summary": "Simon asked AI to plan 5K and 10K loops from OpenStreetMap data. It returned a map and downloadable GPX and GeoJSON files.",
+      "creator": "Simon Willison",
+      "topic": "Outdoors & travel",
+      "tools": [
+        "ChatGPT Work",
+        "GPT-6 Astra"
+      ],
+      "format": "workflow",
+      "difficulty": "Try it",
+      "publishedAt": "2026-09-12T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+      "sources": [
+        {
+          "label": "Simon Willison · original source",
+          "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://static.simonwillison.net/static/2026/5k-route.webp",
+        "aspectRatio": 1.5,
+        "altText": "Creator output: map of a 5.1 km El Granada harbor loop",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Simon Willison"
+      },
+      "workflow": [
+        "Choose a public starting point and distance",
+        "Request mapped loops and GPX files",
+        "Check pedestrian access before running"
+      ],
+      "guide": {
+        "steps": [
+          "Choose a public starting point and distance",
+          "Request mapped loops and GPX files",
+          "Check pedestrian access before running"
+        ],
+        "prompt": "Find a roughly 5 km loop from this public landmark using OpenStreetMap paths. Show distance, crossings, surface types, a map, and a GPX export. Flag uncertain access.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://simonwillison.net/2026/Sep/12/astra-running-routes/"
+      },
+      "ranks": {
+        "day": 2,
+        "week": 2,
+        "month": 2,
+        "year": 2
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "drone-environment-variants",
+      "title": "Turn one drone shot into four environments",
+      "summary": "Uisato compares original drone footage with fire, rain, snow and floral transformations in one visual effects experiment.",
+      "creator": "u/Chuka444 · Uisato",
+      "topic": "Film & animation",
+      "tools": [
+        "Uisato Studio"
+      ],
+      "format": "video",
+      "difficulty": "Try it",
+      "publishedAt": "2026-09-07T15:41:54Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://www.reddit.com/r/nanobanana/comments/1w9vmxc/testing_a_new_workflow_for_rapid_environmental_vfx/",
+      "sources": [
+        {
+          "label": "u/Chuka444 · Uisato · original source",
+          "url": "https://www.reddit.com/r/nanobanana/comments/1w9vmxc/testing_a_new_workflow_for_rapid_environmental_vfx/",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Reddit displayed 21 score and 0 comments when checked. A useful creator experiment, not evidence of virality."
+        }
+      ],
+      "media": {
+        "imageURL": "https://external-preview.redd.it/testing-a-new-workflow-for-rapid-environmental-vfx-v0-cmdseHJwdzBjNG9oMRoD59lg8CMELTBUPR5CTKtEKm-xBDvpkDj8WQJCTYSg.png?width=640&crop=smart&format=pjpg&auto=webp&s=e3f218874afb2a9161955849190b33109b5e95a6",
+        "aspectRatio": 1.5,
+        "altText": "Comparison frame from Uisato environmental VFX experiment",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "u/Chuka444 · Uisato"
+      },
+      "workflow": [
+        "Start with a short drone shot",
+        "Create environmental variations",
+        "Compare camera and geometry consistency"
+      ],
+      "guide": {
+        "steps": [
+          "Start with a short drone shot",
+          "Create environmental variations",
+          "Compare camera and geometry consistency"
+        ],
+        "prompt": "Keep the camera path and buildings in this clip unchanged. Create a snowy version with believable accumulation, light and atmosphere.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://www.reddit.com/r/nanobanana/comments/1w9vmxc/testing_a_new_workflow_for_rapid_environmental_vfx/"
+      },
+      "ranks": {
+        "day": 3,
+        "week": 3,
+        "month": 3,
+        "year": 3
+      },
+      "whyPopular": "Reddit displayed 21 score and 0 comments when checked. A useful creator experiment, not evidence of virality."
+    },
+    {
+      "id": "concept-image-to-blender",
+      "title": "Turn a concept image into a 3D keepsake",
+      "summary": "Simon generated a Pluribus-themed jeweled egg, then asked a coding agent to build a Blender model from the image. A browser viewer shows the result.",
+      "creator": "Simon Willison",
+      "topic": "3D & design",
+      "tools": [
+        "ChatGPT Images 2.5",
+        "Codex",
+        "Blender"
+      ],
+      "format": "image",
+      "difficulty": "Some setup",
+      "publishedAt": "2026-09-09T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+      "sources": [
+        {
+          "label": "Simon Willison · original source",
+          "url": "https://simonwillison.net/2026/Sep/9/blender-viewer/",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://static.simonwillison.net/static/2026/pluribus-blender-viewer.webp",
+        "aspectRatio": 1.5,
+        "altText": "Gold jeweled egg and miniature desert diorama in the creator’s Blender viewer",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Simon Willison"
+      },
+      "workflow": [
+        "Design a concept image",
+        "Ask an agent to model it in Blender",
+        "Inspect materials and render views"
+      ],
+      "guide": {
+        "steps": [
+          "Design a concept image",
+          "Ask an agent to model it in Blender",
+          "Inspect materials and render views"
+        ],
+        "prompt": "Use this original keepsake concept as a reference. Build an editable Blender scene with separate objects and materials, then render front and side views.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://simonwillison.net/2026/Sep/9/blender-viewer/"
+      },
+      "ranks": {
+        "day": 4,
+        "week": 4,
+        "month": 4,
+        "year": 4
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "story-three-shots",
+      "title": "Make a short story hold together across shots",
+      "summary": "Runway’s recent guide plans a sequence around establishing, developing and revealing a scene while keeping references consistent.",
+      "creator": "Leah Retta · Runway",
+      "topic": "Film & animation",
+      "tools": [
+        "Runway"
+      ],
+      "format": "video",
+      "difficulty": "Try it",
+      "publishedAt": "2026-09-11T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://runway.com/resources/multi-shot-ai-video-generator",
+      "sources": [
+        {
+          "label": "Leah Retta · Runway · original source",
+          "url": "https://runway.com/resources/multi-shot-ai-video-generator",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/09/multi-shot-1806fe1b-87bd-452c-bfd3-8759e32268ea.png",
+        "aspectRatio": 1.5,
+        "altText": "Runway tutorial illustration for planning a multi-shot sequence",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Leah Retta · Runway"
+      },
+      "workflow": [
+        "Define three story beats",
+        "Reuse character and setting references",
+        "Generate shots and check continuity"
+      ],
+      "guide": {
+        "steps": [
+          "Define three story beats",
+          "Reuse character and setting references",
+          "Generate shots and check continuity"
+        ],
+        "prompt": "Plan three shots of a small robot discovering a rooftop garden. Keep its shape, colors and the evening light identical. End with one clear emotional reveal.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://runway.com/resources/multi-shot-ai-video-generator"
+      },
+      "ranks": {
+        "day": 5,
+        "week": 5,
+        "month": 5,
+        "year": 5
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "mapping-local-boundaries",
+      "title": "Make your own neighborhood boundary map",
+      "summary": "A small AI-built web app overlays multiple GeoJSON boundaries and exports a PNG. Simon used it to compare two local government areas.",
+      "creator": "Simon Willison",
+      "topic": "Outdoors & travel",
+      "tools": [
+        "ChatGPT Work",
+        "Claude Code",
+        "GeoJSON"
+      ],
+      "format": "app",
+      "difficulty": "Some setup",
+      "publishedAt": "2026-09-01T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://simonwillison.net/2026/Sep/1/geojson/",
+      "sources": [
+        {
+          "label": "Simon Willison · original source",
+          "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://static.simonwillison.net/static/2026/geojson-tool.webp",
+        "aspectRatio": 1.5,
+        "altText": "Two colored local political boundaries over an OpenStreetMap basemap",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Simon Willison"
+      },
+      "workflow": [
+        "Get boundaries from official open data",
+        "Load both into a map viewer",
+        "Export a labeled comparison"
+      ],
+      "guide": {
+        "steps": [
+          "Get boundaries from official open data",
+          "Load both into a map viewer",
+          "Export a labeled comparison"
+        ],
+        "prompt": "Build a browser tool that overlays two GeoJSON files, lets me adjust fill colors and opacity, and exports the map as a PNG.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://simonwillison.net/2026/Sep/1/geojson/"
+      },
+      "ranks": {
+        "day": 6,
+        "week": 6,
+        "month": 6,
+        "year": 6
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "blender-character-scene",
+      "title": "Build a playful 3D scene by describing it",
+      "summary": "A coding agent used Blender’s Python interface to create this pelican cycling beside the sea. The creator iterated on scenery and detail.",
+      "creator": "Simon Willison",
+      "topic": "3D & design",
+      "tools": [
+        "Codex",
+        "GPT-6 Astra",
+        "Blender"
+      ],
+      "format": "image",
+      "difficulty": "Some setup",
+      "publishedAt": "2026-09-05T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+      "sources": [
+        {
+          "label": "Simon Willison · original source",
+          "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://static.simonwillison.net/static/2026/astra-blender-pelican.jpg",
+        "aspectRatio": 1.5,
+        "altText": "Rendered pelican riding a bicycle on a colorful seaside boardwalk",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Simon Willison"
+      },
+      "workflow": [
+        "Install Blender",
+        "Describe a scene to a coding agent",
+        "Review renders and refine"
+      ],
+      "guide": {
+        "steps": [
+          "Install Blender",
+          "Describe a scene to a coding agent",
+          "Review renders and refine"
+        ],
+        "prompt": "Create a Blender scene of a cheerful original animal character cycling along a seaside boardwalk. Use soft sunset light and an editable scene hierarchy.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/"
+      },
+      "ranks": {
+        "day": 7,
+        "week": 7,
+        "month": 7,
+        "year": 7
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "custom-video-compressor",
+      "title": "Build the tiny video tool you actually need",
+      "summary": "Simon used Claude Code to build a browser video compressor that creates several size variants locally with FFmpeg.",
+      "creator": "Simon Willison",
+      "topic": "Everyday tools",
+      "tools": [
+        "Claude Code",
+        "FFmpeg"
+      ],
+      "format": "app",
+      "difficulty": "Some setup",
+      "publishedAt": "2026-09-07T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+      "sources": [
+        {
+          "label": "Simon Willison · original source",
+          "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://static.simonwillison.net/static/2026-09-07/video-compressor.webp",
+        "aspectRatio": 1.5,
+        "altText": "Creator’s browser video compressor comparing several output sizes",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Simon Willison"
+      },
+      "workflow": [
+        "Describe your compression needs",
+        "Build a local browser interface",
+        "Compare quality and file sizes"
+      ],
+      "guide": {
+        "steps": [
+          "Describe your compression needs",
+          "Build a local browser interface",
+          "Compare quality and file sizes"
+        ],
+        "prompt": "Create a browser tool that generates three smaller MP4 versions of a local clip. Show sizes, previews and the corresponding FFmpeg commands.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://simonwillison.net/2026/Sep/7/video-compressor/"
+      },
+      "ranks": {
+        "day": 8,
+        "week": 8,
+        "month": 8,
+        "year": 8
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "music-for-a-visual-world",
+      "title": "Give a surreal visual world its own song",
+      "summary": "Dream Relic combined personal lyrics and generated music with his dreamlike visuals. The source includes Seven-Eleven Halo.",
+      "creator": "Dream Relic · Suno interview",
+      "topic": "Music & sound",
+      "tools": [
+        "Suno"
+      ],
+      "format": "audio",
+      "difficulty": "Try it",
+      "publishedAt": "2026-06-30T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://suno.com/blog/dream-relic",
+      "sources": [
+        {
+          "label": "Dream Relic · Suno interview · original source",
+          "url": "https://suno.com/blog/dream-relic",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Creator reports hundreds of comments asking for the song in this Suno interview; SPARK did not independently measure those comments."
+        }
+      ],
+      "media": {
+        "imageURL": "https://cdn.sanity.io/images/cl7b1q1i/production/640170d16c1e92e38bef8980bf72655750a37cf2-1920x1080.jpg?auto=format&fit=max&w=2400",
+        "aspectRatio": 1.5,
+        "altText": "Surreal Dream Relic visual with a sparkling figure and luminous halo",
+        "embedURL": "https://suno.com/embed/2e6b6eb7-9421-4c10-bdab-ba70252ae152",
+        "directMediaURL": null,
+        "attribution": "Dream Relic · Suno interview"
+      },
+      "workflow": [
+        "Describe the feeling of your visuals",
+        "Add your own lyrics",
+        "Choose a take that matches the edit"
+      ],
+      "guide": {
+        "steps": [
+          "Describe the feeling of your visuals",
+          "Add your own lyrics",
+          "Choose a take that matches the edit"
+        ],
+        "prompt": "Create a slow dreamlike electronic song for a surreal nighttime scene. Use these original lyrics, spacious textures and a memorable understated chorus.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://suno.com/blog/dream-relic"
+      },
+      "ranks": {
+        "day": 9,
+        "week": 9,
+        "month": 9,
+        "year": 9
+      },
+      "whyPopular": "Creator reports hundreds of comments asking for the song in this Suno interview; SPARK did not independently measure those comments."
+    },
+    {
+      "id": "piano-to-orchestra",
+      "title": "Hear a piano melody as a full orchestra",
+      "summary": "Composer Eric Christian uses Suno to audition the larger orchestral sound he imagines behind his piano melodies. The source embeds a finished track.",
+      "creator": "Eric Christian · Suno interview",
+      "topic": "Music & sound",
+      "tools": [
+        "Suno"
+      ],
+      "format": "audio",
+      "difficulty": "Try it",
+      "publishedAt": "2026-06-26T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://suno.com/blog/eric-christian",
+      "sources": [
+        {
+          "label": "Eric Christian · Suno interview · original source",
+          "url": "https://suno.com/blog/eric-christian",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://cdn2.suno.ai/image_large_f7689d96-3d3e-4115-95fb-c66a842963ce.jpeg",
+        "aspectRatio": 1.5,
+        "altText": "Cover art for Eric Christian’s The joker and the thief final",
+        "embedURL": "https://suno.com/embed/f7689d96-3d3e-4115-95fb-c66a842963ce",
+        "directMediaURL": null,
+        "attribution": "Eric Christian · Suno interview"
+      },
+      "workflow": [
+        "Record your own melody",
+        "Try an orchestral arrangement",
+        "Compare how each version develops the theme"
+      ],
+      "guide": {
+        "steps": [
+          "Record your own melody",
+          "Try an orchestral arrangement",
+          "Compare how each version develops the theme"
+        ],
+        "prompt": "Arrange my original piano melody for a small cinematic orchestra. Preserve its phrasing and shape; build gently with strings and woodwinds.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://suno.com/blog/eric-christian"
+      },
+      "ranks": {
+        "day": 10,
+        "week": 10,
+        "month": 10,
+        "year": 10
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "music-for-choreography",
+      "title": "Create a house track around a dance idea",
+      "summary": "Matt Steffanina describes making a Suno house track for a dance video filmed under a downtown underpass. His interview includes The Sound.",
+      "creator": "Matt Steffanina · Suno interview",
+      "topic": "Music & sound",
+      "tools": [
+        "Suno"
+      ],
+      "format": "audio",
+      "difficulty": "Try it",
+      "publishedAt": "2026-06-26T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://suno.com/blog/matt-steffanina",
+      "sources": [
+        {
+          "label": "Matt Steffanina · Suno interview · original source",
+          "url": "https://suno.com/blog/matt-steffanina",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://cdn2.suno.ai/image_large_336c6b25-0b32-438c-8857-0a46679ffc13.jpeg",
+        "aspectRatio": 1.5,
+        "altText": "Cover art for Matt Steffanina’s The Sound",
+        "embedURL": "https://suno.com/embed/336c6b25-0b32-438c-8857-0a46679ffc13",
+        "directMediaURL": null,
+        "attribution": "Matt Steffanina · Suno interview"
+      },
+      "workflow": [
+        "Plan the movement and musical beats",
+        "Generate a short original track",
+        "Edit the dance to its strongest section"
+      ],
+      "guide": {
+        "steps": [
+          "Plan the movement and musical beats",
+          "Generate a short original track",
+          "Edit the dance to its strongest section"
+        ],
+        "prompt": "Create an original house track for a playful group dance. Include a clear eight-count introduction, a strong groove and a distinct beat drop.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://suno.com/blog/matt-steffanina"
+      },
+      "ranks": {
+        "day": 11,
+        "week": 11,
+        "month": 11,
+        "year": 11
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "pixel-game-map",
+      "title": "Generate a seamless pixel-art world",
+      "summary": "Retro Diffusion’s example turns a forest clearing into a tileable top-down game background.",
+      "creator": "Replicate · Retro Diffusion",
+      "topic": "Games",
+      "tools": [
+        "Retro Diffusion"
+      ],
+      "format": "image",
+      "difficulty": "Try it",
+      "publishedAt": "2025-11-19T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://replicate.com/blog/retro-diffusions-pixel-art-models-are-now-on-replicate",
+      "sources": [
+        {
+          "label": "Replicate · Retro Diffusion · original source",
+          "url": "https://replicate.com/blog/retro-diffusions-pixel-art-models-are-now-on-replicate",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://replicate.com/_content/assets/rd-plus.tOEWBgJp_4b2F1.webp",
+        "aspectRatio": 1.5,
+        "altText": "Retro Diffusion pixel-art environment example",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Replicate · Retro Diffusion"
+      },
+      "workflow": [
+        "Choose a top-down environment",
+        "Generate a tileable square",
+        "Test repeated edges in your game"
+      ],
+      "guide": {
+        "steps": [
+          "Choose a top-down environment",
+          "Generate a tileable square",
+          "Test repeated edges in your game"
+        ],
+        "prompt": "Top-down pixel-art forest clearing with paths and small stones, readable at game scale, seamless along both axes.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://replicate.com/blog/retro-diffusions-pixel-art-models-are-now-on-replicate"
+      },
+      "ranks": {
+        "day": 12,
+        "week": 12,
+        "month": 12,
+        "year": 12
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "example-driven-editing",
+      "title": "Teach an image edit with before-and-after examples",
+      "summary": "Seedream’s tutorial uses a repaired mug as an example, then applies the same gold kintsugi treatment to a vase.",
+      "creator": "Replicate",
+      "topic": "Art & photography",
+      "tools": [
+        "Seedream 5"
+      ],
+      "format": "image",
+      "difficulty": "Try it",
+      "publishedAt": "2026-02-24T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://replicate.com/blog/how-to-prompt-seedream-5",
+      "sources": [
+        {
+          "label": "Replicate · original source",
+          "url": "https://replicate.com/blog/how-to-prompt-seedream-5",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://replicate.delivery/xezq/ngwP8Un33Sq6HF35HmKPtUFkYzE9mvnmfTVhtv86n7JqpWFLA/tmpjsz4qofv.jpg",
+        "aspectRatio": 1.5,
+        "altText": "Vase edited with gold kintsugi cracks",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Replicate"
+      },
+      "workflow": [
+        "Provide a before-and-after pair",
+        "Add a new object photo",
+        "Ask for the same transformation"
+      ],
+      "guide": {
+        "steps": [
+          "Provide a before-and-after pair",
+          "Add a new object photo",
+          "Ask for the same transformation"
+        ],
+        "prompt": "Apply the transformation demonstrated in the first pair to the final image. Preserve its shape and lighting.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://replicate.com/blog/how-to-prompt-seedream-5"
+      },
+      "ranks": {
+        "day": 13,
+        "week": 13,
+        "month": 13,
+        "year": 13
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "surreal-location-moodboard",
+      "title": "Imagine an impossible location for a film",
+      "summary": "Krea’s examples place ordinary objects in unexpected landscapes, including a glowing vending machine beside rice fields.",
+      "creator": "Replicate",
+      "topic": "Art & photography",
+      "tools": [
+        "Krea 2"
+      ],
+      "format": "image",
+      "difficulty": "Try it",
+      "publishedAt": "2026-06-23T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://replicate.com/blog/krea-2",
+      "sources": [
+        {
+          "label": "Replicate · original source",
+          "url": "https://replicate.com/blog/krea-2",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://replicate.com/_content/assets/vending-machine-dusk.Bm397sPU_Z15RbYR.webp",
+        "aspectRatio": 1.5,
+        "altText": "Glowing vending machine in a rice-field landscape",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Replicate"
+      },
+      "workflow": [
+        "Combine a familiar object and unexpected location",
+        "Define light and mood",
+        "Generate a coherent moodboard"
+      ],
+      "guide": {
+        "steps": [
+          "Combine a familiar object and unexpected location",
+          "Define light and mood",
+          "Generate a coherent moodboard"
+        ],
+        "prompt": "A glowing vending machine beside still rice fields at dusk, restrained colors, quiet cinematic composition.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://replicate.com/blog/krea-2"
+      },
+      "ranks": {
+        "day": 14,
+        "week": 14,
+        "month": 14,
+        "year": 14
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "visual-explainer-from-notes",
+      "title": "Turn dense notes into a visual explainer",
+      "summary": "Replicate’s Nano Banana guide demonstrates educational infographics generated from source material.",
+      "creator": "Replicate",
+      "topic": "Learning",
+      "tools": [
+        "Nano Banana Pro"
+      ],
+      "format": "image",
+      "difficulty": "Try it",
+      "publishedAt": "2025-11-20T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://replicate.com/blog/how-to-prompt-nano-banana-pro",
+      "sources": [
+        {
+          "label": "Replicate · original source",
+          "url": "https://replicate.com/blog/how-to-prompt-nano-banana-pro",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://replicate.delivery/xezq/krsYigCheMzEDqAfGHrP1FfeqF2Aac0gVZpCTo0Mu5BV4jtWB/tmpq2aoez2e.jpeg",
+        "aspectRatio": 1.5,
+        "altText": "Educational infographic output from the Nano Banana Pro guide",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Replicate"
+      },
+      "workflow": [
+        "Choose a short factual source",
+        "Request a visual explanation",
+        "Check every label against the source"
+      ],
+      "guide": {
+        "steps": [
+          "Choose a short factual source",
+          "Request a visual explanation",
+          "Check every label against the source"
+        ],
+        "prompt": "Turn these notes into a clear educational infographic with three sections and simple diagrams. Use only supplied facts and mark missing information.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://replicate.com/blog/how-to-prompt-nano-banana-pro"
+      },
+      "ranks": {
+        "day": 15,
+        "week": 15,
+        "month": 15,
+        "year": 15
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "story-led-watch-ad",
+      "title": "Make a fictional product ad with a story",
+      "summary": "Runway’s The Watch spec ad uses an invented watch brand as the center of a short narrative.",
+      "creator": "Runway",
+      "topic": "Design & marketing",
+      "tools": [
+        "Runway"
+      ],
+      "format": "video",
+      "difficulty": "Try it",
+      "publishedAt": "2026-04-13T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://runway.com/news/company-news/project-luxo",
+      "sources": [
+        {
+          "label": "Runway · original source",
+          "url": "https://runway.com/news/company-news/project-luxo",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Runway reports over 100 million Instagram views in the first 48 hours after its April 13 post. This is a publisher-reported figure, not a current independently measured counter."
+        }
+      ],
+      "media": {
+        "imageURL": "https://d3phaj0sisr2ct.cloudfront.net/site/assets/the-watch-thumbnail.webp",
+        "aspectRatio": 1.5,
+        "altText": "The Watch spec ad poster from Runway",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Runway"
+      },
+      "workflow": [
+        "Invent a fictional product",
+        "Write a compact emotional story",
+        "Generate and edit the shots"
+      ],
+      "guide": {
+        "steps": [
+          "Invent a fictional product",
+          "Write a compact emotional story",
+          "Generate and edit the shots"
+        ],
+        "prompt": "Outline a 30-second fictional watch ad where one small act reveals the meaning of time. Describe five shots and a quiet final image.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://runway.com/news/company-news/project-luxo"
+      },
+      "ranks": {
+        "day": 16,
+        "week": 16,
+        "month": 16,
+        "year": 16
+      },
+      "whyPopular": "Runway reports over 100 million Instagram views in the first 48 hours after its April 13 post. This is a publisher-reported figure, not a current independently measured counter."
+    },
+    {
+      "id": "script-to-shot-list",
+      "title": "Turn a scene into a practical shot list",
+      "summary": "Runway’s guide shows how a short script becomes a structured production plan with framing, movement and story purpose.",
+      "creator": "Leah Retta · Runway",
+      "topic": "Writing & storytelling",
+      "tools": [
+        "Runway"
+      ],
+      "format": "document",
+      "difficulty": "Try it",
+      "publishedAt": "2026-08-20T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://runway.com/resources/ai-shot-list",
+      "sources": [
+        {
+          "label": "Leah Retta · Runway · original source",
+          "url": "https://runway.com/resources/ai-shot-list",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/08/ai-shot-list-a78bce96-c533-48e8-8d9f-c26c06bc6106.png",
+        "aspectRatio": 1.5,
+        "altText": "Runway shot-list tutorial illustration",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Leah Retta · Runway"
+      },
+      "workflow": [
+        "Provide a scene and constraints",
+        "Generate a shot table",
+        "Review what each shot communicates"
+      ],
+      "guide": {
+        "steps": [
+          "Provide a scene and constraints",
+          "Generate a shot table",
+          "Review what each shot communicates"
+        ],
+        "prompt": "Convert this scene into a shot list with framing, action, camera movement, duration and narrative purpose. Keep it feasible for one room and two actors.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://runway.com/resources/ai-shot-list"
+      },
+      "ranks": {
+        "day": 17,
+        "week": 17,
+        "month": 17,
+        "year": 17
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "renovation-reveal",
+      "title": "Animate a renovation before-and-after",
+      "summary": "A recent Runway tutorial uses matched photographs as the first and last frames of a short construction reveal.",
+      "creator": "Leah Retta · Runway",
+      "topic": "Home & spaces",
+      "tools": [
+        "Runway"
+      ],
+      "format": "video",
+      "difficulty": "Try it",
+      "publishedAt": "2026-08-28T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://runway.com/resources/before-after-video-generator",
+      "sources": [
+        {
+          "label": "Leah Retta · Runway · original source",
+          "url": "https://runway.com/resources/before-after-video-generator",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": null,
+      "workflow": [
+        "Choose matched before-and-after photos",
+        "Generate the transition between them",
+        "Label the transition as generated"
+      ],
+      "guide": {
+        "steps": [
+          "Choose matched before-and-after photos",
+          "Generate the transition between them",
+          "Label the transition as generated"
+        ],
+        "prompt": "Create a smooth transition between these two real room photographs. Lock the camera and preserve the first and final states exactly.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://runway.com/resources/before-after-video-generator"
+      },
+      "ranks": {
+        "day": 18,
+        "week": 18,
+        "month": 18,
+        "year": 18
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "pdf-to-editable-notes",
+      "title": "Turn a PDF into editable structured notes",
+      "summary": "Datalab Marker extracts Markdown from documents, including tables and math, rather than leaving the result as a flat screenshot.",
+      "creator": "Andreas Jansson · Replicate",
+      "topic": "Work & productivity",
+      "tools": [
+        "Datalab Marker"
+      ],
+      "format": "document",
+      "difficulty": "Some setup",
+      "publishedAt": "2025-10-21T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://replicate.com/blog/datalab-marker-and-ocr-fast-parsing",
+      "sources": [
+        {
+          "label": "Andreas Jansson · Replicate · original source",
+          "url": "https://replicate.com/blog/datalab-marker-and-ocr-fast-parsing",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": {
+        "imageURL": "https://replicate.com/_content/assets/ocr.ByYKBziG_FASqG.webp",
+        "aspectRatio": 1.5,
+        "altText": "Document text regions highlighted in the source OCR example",
+        "embedURL": null,
+        "directMediaURL": null,
+        "attribution": "Andreas Jansson · Replicate"
+      },
+      "workflow": [
+        "Choose a sample document",
+        "Extract Markdown",
+        "Check tables against the original"
+      ],
+      "guide": {
+        "steps": [
+          "Choose a sample document",
+          "Extract Markdown",
+          "Check tables against the original"
+        ],
+        "prompt": "Extract this document into Markdown. Preserve headings, tables and equations, and flag any uncertain text.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://replicate.com/blog/datalab-marker-and-ocr-fast-parsing"
+      },
+      "ranks": {
+        "day": 19,
+        "week": 19,
+        "month": 19,
+        "year": 19
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    },
+    {
+      "id": "vintage-impossible-home-movie",
+      "title": "Make an impossible scene look like a home movie",
+      "summary": "Replicate’s FLUX 3 demos use consumer-camcorder imperfections to give surreal scenes the texture of found footage.",
+      "creator": "Shridhar · Replicate",
+      "topic": "Film & animation",
+      "tools": [
+        "FLUX 3"
+      ],
+      "format": "video",
+      "difficulty": "Try it",
+      "publishedAt": "2026-08-04T00:00:00Z",
+      "discoveredAt": "2026-09-16T04:51:05Z",
+      "verifiedAt": "2026-09-16T04:51:05Z",
+      "sourceURL": "https://replicate.com/blog/flux-3",
+      "sources": [
+        {
+          "label": "Shridhar · Replicate · original source",
+          "url": "https://replicate.com/blog/flux-3",
+          "observedAt": "2026-09-16T04:51:05Z",
+          "signal": "Editorial discovery; engagement not measured."
+        }
+      ],
+      "media": null,
+      "workflow": [
+        "Choose a clearly fictional event",
+        "Describe the recording texture",
+        "Generate and label the fictional clip"
+      ],
+      "guide": {
+        "steps": [
+          "Choose a clearly fictional event",
+          "Describe the recording texture",
+          "Generate and label the fictional clip"
+        ],
+        "prompt": "Fictional 1990s home-video scene: a paper moon rises above a backyard pond. Handheld framing, soft focus and imperfect exposure; one continuous shot.",
+        "promptOrigin": "suggested",
+        "tutorialURL": "https://replicate.com/blog/flux-3"
+      },
+      "ranks": {
+        "day": 20,
+        "week": 20,
+        "month": 20,
+        "year": 20
+      },
+      "whyPopular": "Editorial discovery; engagement not measured."
+    }
+  ]
+}
